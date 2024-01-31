@@ -122,3 +122,9 @@ footer a {
     text-decoration: none;
     color: rgb(7, 97, 233);
 }
+@media  and (max-width::content) {
+  .about_section {
+    visibility:collapse;
+  }
+  .container {visibility: visible;}
+}
